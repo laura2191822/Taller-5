@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,179,113,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: 'Quicksand', sans-serif;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(60,179,113,1);
+    border-color: transparent;
+}
+.btn:hover{
+    background-color: rgba(0,212,255,1);
+    border-color: transparent;
+}
+.card-body{
+    width: 550px;
+    height: 160px;
+    justify-items: center;
+}

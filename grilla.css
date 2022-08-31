@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(60,179,113,1) 0%, rgba(0,212,255,1) 100%);
+    font-family: 'Quicksand', sans-serif;
+}
+.tabla{
+    margin: 50px;
+}
+table{
+    background-color: white;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+#regresar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 35px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
